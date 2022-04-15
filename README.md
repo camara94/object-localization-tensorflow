@@ -28,3 +28,18 @@ This course is divided into 3 parts:
 2. **Object Localization with TensorFlow**: This is the hands on project that we will work on in Rhyme.
 
 3. Graded Quiz: This is the final assignment that you need to pass in order to finish the course successfully.
+
+### Project Structure
+
+The hands on project on **Object Localization with TensorFlow** is divided into following tasks:
+
+**Task 1: Introduction
+Task 2: Download and Visualize Data
+Task 3: Create Examples
+Task 4: Plot Bounding Boxes
+Task 5: Data Generator
+Task 6: Model
+Task 7: Custom Metric: IoU
+Task 8: Compile The Model
+Task 9: Custom Callback
+Task 10: Model Training**
