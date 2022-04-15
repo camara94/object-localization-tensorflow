@@ -8,3 +8,9 @@ Welcome to this 2 hour long guided project on creating and training an Object Lo
 * Create synthetic data for model training
 * Create custom metrics and callbacks in Keras
 * Create and train a multi output neural network to perform object localization
+
+## Project-based Course Overview
+
+### Welcome!
+
+Welcome to **Object Localization with TensorFlow**. This is a project-based course which should take less than 2 hours to finish. Before diving into the project, please take a look at the course objectives and structure:
