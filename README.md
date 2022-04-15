@@ -18,3 +18,13 @@ Welcome to **Object Localization with TensorFlow**. This is a project-based cour
 ### Course Objectives
 
 In this course, our primary learning objective is to create and train a multi output convolutional neural network to perform object localization. We will also learn to create custom callbacks and custom metrics in Keras.
+
+## Course Structure
+
+This course is divided into 3 parts:
+
+1. Course Overview: This introductory reading material.
+
+2. **Object Localization with TensorFlow**: This is the hands on project that we will work on in Rhyme.
+
+3. Graded Quiz: This is the final assignment that you need to pass in order to finish the course successfully.
