@@ -43,3 +43,5 @@ Task 7: Custom Metric: IoU
 Task 8: Compile The Model
 Task 9: Custom Callback
 Task 10: Model Training**
+
+![image](images/1.png)
