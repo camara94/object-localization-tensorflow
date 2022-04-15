@@ -1,0 +1,106 @@
+Welcome back in this task, we're going to create a function
+which will create our synthesize examples that we will use
+later when training our model and the examples that we want
+to synthesize need to be.
+Let me just go back up all the way.
+So the examples that we need to synthesize need to be
+something like this image that you see at the top where
+this image is going to be somewhat larger than the emoji
+and the emoji will be placed sort of randomly somewhere
+within that image.
+Let's go back to the task three first court cell and this
+one is filled out for you already.
+And all it does is it loads these emojis and assigns a key
+called Image for each class in this emojis dictionary.
+So right now, um, eat class has close, I'd
+and the corresponding name and find him.
+And after I run this coat sale in task three, let's do that
+now and then if I take a look at this dictionary, you
+will see that now each class has a file, an image and name.
+So this images added to this dictionary.
+All right, now we can start writing this create image
+or create example function.
+And what we will do is just randomly pick a class
+and synthesize an image for that class.
+So let's say our class ideas.
+Let's use numb pie dot random dot random integer.
+And since we have nine classes and the keys for those classes
+are, the classifieds are from 0 to 8, so we can use N P.
+Tort random, not random integer from 09 nine is excluded,
+so the values are going to be from 0 to 8.
+Now we can create a blank image, and we can decide on a sides
+for our image.
+I'm going to use 1 44 by 1, 44 and three channels, but you
+can use a different size if you want.
+Just remember that the emoji images that we have loaded are
+72 by 72 and ah, I'm just using a I'm just doubling
+those rows and columns and we'll just place the emoji file
+somewhere within this image, and I'm also going to multiply
+these ah, and beat out once by 2 55 for pixel values.
+So the starting values for all the pixels is going to be 2 55.
+We will also randomly decide on where the images
+should be localized within this blank image that
+we have created so we can choose a random value for the raw.
+And we can again use NPT at random, not random in teacher,
+and the values can be from 0 to 72.
+Um, and again, that's because the final image is going to be
+1 44 by 1 44.
+And we know that the emoji images are off size 72 by 72.
+So similarly, we will choose a random value for the column as
+well. And again, this will be a value from 0 to 72.
+Great. So in order to construct our image, we need to place
+the emoji image in this blank image called Image.
+And we replaced the emoji between row and row plus 72 comma
+column to column plus 72.
+And, of course, the channel information can remain.
+Answers create, and the image is a P a l m. It's so we
+will use NPD area to convert that to a new Empire area,
+and the image can be accessed in the Emojis Dictionary using
+the class society That was randomly Children here and in, uh,
+in emojis class I'd value, which is also ah, a dictionary.
+We will use the image key, right?
+So now we have the image with an emoji ah, placed somewhere
+on that image.
+Now let's return this constructed in it or synthesized image,
+I should say, as type you and eight and return the class, I'd
+and we'll also return the position.
+And in this case, we're not scaling the energy images.
+So we basically will have, Ah, the same sort of it and height.
+So in order to return the position here, we can actually
+simply return just the row and column values.
+But I'm going to normalize them, and I'm also going to offset
+a buffer off about 10 pixels.
+And the reason for that is let me just go back up a little
+bit. So the reason for that buffer, often pixel, is simply
+because we have roughly 10 pixels on each side in our
+emerging images which are unutilized, so Ah, we can actually
+sort of crop the images out in a way, right?
+So let's go back to our create examples function or create
+example function.
+And when we're returning the values, we will return
+zero plus 10 and normalize it.
+So our a total off the images 1 44.
+So let's use that and our column is also going to be calling
+plus 10 and divided by 1 44.
+Great. So that should do the job.
+Let's run this coat sale and in the next court cell,
+let's use this function so we will create an image.
+We will get a class.
+I'd We will also get a row and column values, and it's called
+the function.
+Create example.
+And let's take a look at this image.
+It's built it and I am sure image.
+And there we go.
+So we have one of the images placed somewhere in a blank
+white image, and that's what we wanted.
+Let's try this again, and this time we have another energy.
+There we go.
+Great. So we have created a function which is successfully
+synthesizing these images, and it'll be a great idea to try
+and visualized the bonding boxes as well.
+We have the ruin column, and we know that the what the size
+off emerges eyes supposed to be within these images, so we'll
+just utilize that information and create a function which
+will plot bounding boxes, given the image and the ruin column
+values.
