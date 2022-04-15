@@ -14,3 +14,7 @@ Welcome to this 2 hour long guided project on creating and training an Object Lo
 ### Welcome!
 
 Welcome to **Object Localization with TensorFlow**. This is a project-based course which should take less than 2 hours to finish. Before diving into the project, please take a look at the course objectives and structure:
+
+### Course Objectives
+
+In this course, our primary learning objective is to create and train a multi output convolutional neural network to perform object localization. We will also learn to create custom callbacks and custom metrics in Keras.
